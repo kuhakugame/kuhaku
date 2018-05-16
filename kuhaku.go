@@ -161,6 +161,8 @@ func OnMessage(r *qqbotapi.Message) {
 		mt = "第七章 鲜血神殿 均108.2AP"
 	} else if args[0] == "/咒兽胆石" {
 		mt = "第七章 艾比夫山 均173.6AP"
+	} else if args[0] == "/人工生命体幼体" {
+		mt = "数据缺失"
 	} else if args[0] == "/国服活动" {
 		mt = "目录\n/活动奖励\n/奖励礼装及从者\n/副本介绍\n/攻略建议\n/卡池分析\n/外链网址\n请输入目录名称获取详细资讯"
 	} else if args[0] == "/活动奖励" {
